@@ -1,0 +1,24 @@
+
+ID  Name                 Surname              Department           Citation Index
+2   Abraham              Lincoln              Mathematics          23
+5   Albert               Eistein              Physics              52
+10  Celal                Sengor               Geophysics           65
+11  Ilber                Ortayli              History              75
+14  Ada                  Lovelace             Mathematics          32
+21  Carl                 Gauss                Mathematics          40
+
+Which operation do you choose?
+1 : Update Citation Index
+2 : Add Researcher
+3 : Delete researcher
+4 : View Department Info with Citation
+> 3
+
+Researcher id: 10
+
+ID  Name                 Surname              Department           Citation Index
+2   Abraham              Lincoln              Mathematics          23
+5   Albert               Eistein              Physics              52
+11  Ilber                Ortayli              History              75
+14  Ada                  Lovelace             Mathematics          32
+21  Carl                 Gauss                Mathematics          40
