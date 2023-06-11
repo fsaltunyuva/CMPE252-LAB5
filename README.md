@@ -4,9 +4,7 @@
 
 **Lab 5**
 
-In this lab, you are given a binary file on LMS named as **researcher.bin**which includes records of
-
-researchers in a university. Each researcher record will be stored using researcherstruct as:
+In this lab, you are given a binary file on LMS named as **researcher.bin**which includes records of researchers in a university. Each researcher record will be stored using researcher struct as:
 
 
 typedef struct
@@ -35,8 +33,7 @@ functions:
 
 **int modifyCitIndex(FILE \*filePtr, unsigned int id, int increaseCit);**
 
-Takes FILEpointer to the binary file. Updates citation index of the researcher whose id is provided in id parameter with the given increaseCit value. If there is a researcher record with the given id, its citIndex field is updated by summing up with the given increaseCit value and the function
-returns 1; otherwise, it returns 0. For sample run, see test\_case\_2.txton LMS.
+Takes FILEpointer to the binary file. Updates citation index of the researcher whose id is provided in id parameter with the given increaseCit value. If there is a researcher record with the given id, its citIndex field is updated by summing up with the given increaseCit value and the function returns 1; otherwise, it returns 0. For sample run, see test\_case\_2.txton LMS.
 
 
 **Part II (25 points)**
@@ -64,13 +61,13 @@ Takes FILEpointer to the binary file. Prints researcher records whose department
 
 **Important Notes**
 
-As a small **hint**: fseek()is used to move file pointer associated with a given file to a specific position.
+-As a small **hint**: fseek()is used to move file pointer associated with a given file to a specific position.
 
-You need to use fseek()function to add, update and delete any record in binary file.
+-You need to use fseek()function to add, update and delete any record in binary file.
 
-Note that parts are independent from each other so solution of each part does not require solution of other parts. Please check and see all the remaining VPL test cases on LMS while submitting.
+-Note that parts are independent from each other so solution of each part does not require solution of other parts. Please check and see all the remaining VPL test cases on LMS while submitting.
 
-Notice that, in the skeleton code, we have provided implementation of the following functions which are needed to remain as they are:
+-Notice that, in the skeleton code, we have provided implementation of the following functions which are needed to remain as they are:
 
 **int main();**
 
